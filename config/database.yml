@@ -1,0 +1,20 @@
+#Databases for this project
+
+development:
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  host: localhost
+  username: postgres
+  database: appointment_management_db
+  password: postgres9
+
+  
+production:
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  host: localhost
+  username: postgres
+  database: appointment_management_db
+  password: postgres9
